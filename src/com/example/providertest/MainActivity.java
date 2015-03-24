@@ -45,7 +45,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			values.put("name", "A Clash of Kings");
 			values.put("author", "Geory Martin");
 			values.put("pages", 1040);
-			values.put("price", 22.95);
+			values.put("price", 55.95);
 			Uri newUri = getContentResolver().insert(uri, values);
 			newId = newUri.getPathSegments().get(1);
 			break;
